@@ -1,5 +1,7 @@
-<?php 
-//http://localhost:8080/bbs-yt/?username=
+<?php
+//初期設定について、C:\xampp\phpMyAdmin\config.inc.phpとhttp://localhost:8080/phpmyadmin/にパスワードつけた
+//http://localhost:8080/phpmyadmin/ 管理者パネルに入る
+//http://localhost:8080/bbs-yt/?username= 絞り込み
 //echo $_POST["submitButton"];
 //echo $_POST["username"];
 //echo $_POST["comment"];
@@ -12,6 +14,7 @@ date_default_timezone_set("Asia/Tokyo");
 $comment_array = array();
 $pdo = null;
 $stmt = null;
+
 
 // バリデーションエラーでDBに書き込まれないようにする変数
 $error_messages = array();
