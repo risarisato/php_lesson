@@ -17,7 +17,7 @@ body {
 }
 
 section .username {
-    color: green !important;
+    color: green !important; /* 最優先になる */
     font-weight: 700;
 }
 
